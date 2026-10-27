@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# example.com — адрес-заглушка, заменить на реальный домен при публикации
+Sitemap: https://example.com/sitemap.xml

@@ -1,0 +1,73 @@
+{
+  "total": 11,
+  "passed": 3,
+  "score": 27,
+  "results": [
+    {
+      "group": "Метатеги и язык",
+      "title": "У <html> указан атрибут lang=\"ru\"",
+      "ok": false,
+      "detail": "сейчас lang=\"en\""
+    },
+    {
+      "group": "Метатеги и язык",
+      "title": "Есть <meta charset=\"UTF-8\">",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "Метатеги и язык",
+      "title": "Есть <meta name=\"viewport\">",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "Метатеги и язык",
+      "title": "Заголовок title указывает название страницы",
+      "ok": false,
+      "detail": "сейчас: «Document»"
+    },
+    {
+      "group": "Метатеги и язык",
+      "title": "Есть meta description",
+      "ok": false,
+      "detail": ""
+    },
+    {
+      "group": "Структура заголовков",
+      "title": "На странице ровно один <h1>",
+      "ok": true,
+      "detail": "найдено <h1>: 1"
+    },
+    {
+      "group": "Структура заголовков",
+      "title": "Уровни заголовков идут без пропусков",
+      "ok": false,
+      "detail": "есть пропуск уровня"
+    },
+    {
+      "group": "Структура заголовков",
+      "title": "Главный заголовок сделан элементом, а не <div>",
+      "ok": false,
+      "detail": "заголовок оформлен через <div>"
+    },
+    {
+      "group": "robots.txt и sitemap.xml",
+      "title": "robots.txt лежит в корне и содержит User-agent",
+      "ok": false,
+      "detail": "файла нет"
+    },
+    {
+      "group": "robots.txt и sitemap.xml",
+      "title": "В robots.txt указана строка Sitemap",
+      "ok": false,
+      "detail": ""
+    },
+    {
+      "group": "robots.txt и sitemap.xml",
+      "title": "sitemap.xml есть, адреса абсолютные",
+      "ok": false,
+      "detail": "файла нет"
+    }
+  ]
+}

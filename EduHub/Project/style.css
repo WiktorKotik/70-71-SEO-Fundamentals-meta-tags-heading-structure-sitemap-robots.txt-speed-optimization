@@ -1,0 +1,51 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #1f2937;
+  background: #f5f7fb;
+  line-height: 1.6;
+}
+
+.header {
+  background: #3b3f9e;
+  color: #fff;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.logo { font-size: 22px; font-weight: 700; }
+
+.nav a { color: #fff; margin-left: 20px; text-decoration: none; }
+.nav a:hover { text-decoration: underline; }
+
+.container { max-width: 900px; margin: 0 auto; padding: 24px; }
+
+.hero { padding: 40px 0 24px; }
+.hero-title { font-size: 36px; font-weight: 700; line-height: 1.2; }
+.hero p { margin-top: 12px; color: #4b5563; max-width: 60ch; }
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #3b3f9e;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.section { margin-top: 36px; }
+.section h2, .section-title { font-size: 26px; margin-bottom: 12px; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.card { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px; }
+.card h3, .card-title { font-size: 18px; margin-bottom: 6px; }
+
+ul.list { padding-left: 20px; }
+
+.footer { margin-top: 48px; padding: 20px; text-align: center; color: #6b7280; font-size: 14px; }

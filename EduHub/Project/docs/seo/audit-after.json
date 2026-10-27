@@ -1,0 +1,73 @@
+{
+  "total": 11,
+  "passed": 11,
+  "score": 100,
+  "results": [
+    {
+      "group": "Метатеги и язык",
+      "title": "У <html> указан атрибут lang=\"ru\"",
+      "ok": true,
+      "detail": "сейчас lang=\"ru\""
+    },
+    {
+      "group": "Метатеги и язык",
+      "title": "Есть <meta charset=\"UTF-8\">",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "Метатеги и язык",
+      "title": "Есть <meta name=\"viewport\">",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "Метатеги и язык",
+      "title": "Заголовок title указывает название страницы",
+      "ok": true,
+      "detail": "сейчас: «EduHub — онлайн-курсы по веб-разработке»"
+    },
+    {
+      "group": "Метатеги и язык",
+      "title": "Есть meta description",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "Структура заголовков",
+      "title": "На странице ровно один <h1>",
+      "ok": true,
+      "detail": "найдено <h1>: 1"
+    },
+    {
+      "group": "Структура заголовков",
+      "title": "Уровни заголовков идут без пропусков",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "Структура заголовков",
+      "title": "Главный заголовок сделан элементом, а не <div>",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "robots.txt и sitemap.xml",
+      "title": "robots.txt лежит в корне и содержит User-agent",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "robots.txt и sitemap.xml",
+      "title": "В robots.txt указана строка Sitemap",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "group": "robots.txt и sitemap.xml",
+      "title": "sitemap.xml есть, адреса абсолютные",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}
